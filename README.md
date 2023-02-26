@@ -130,7 +130,7 @@ Proves i exercicis a fer i entregar
 
     sd.play(x, fm)       
     ```
-    <img src="figure_0.png" width="480" align="center">
+    <img src="img/figure_0.png" width="480" align="center">
 
     ```python           
     N=5000                     
@@ -149,7 +149,7 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')          
     plt.show()     
     ``` 
-    <img src="figure_1.png" width="480" align="center">  
+    <img src="img/figure_1.png" width="480" align="center">  
 
 
     ```python
@@ -177,7 +177,7 @@ Proves i exercicis a fer i entregar
 
     sd.play(x, fm)              
     ```
-    <img src="figure_2.png" width="480" align="center">  
+    <img src="img/figure_2.png" width="480" align="center">  
 
 
     ```python
@@ -197,7 +197,7 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show()
     ```                
-    <img src="figure_3.png" width="480" align="center"> 
+    <img src="img/figure_3.png" width="480" align="center"> 
 
      Com es por observar a la comparació de ambdues gráfiques, a una freqüència de 4kHz, la sinusoide es capaz de realitzar 5 periodes en en un temps de 1.1ms, mentre que a 800Hz triga aproximadament uns 6ms. 
      Ambdues tenen una amplitud de 4 unitats com s'estableix previament al codi python en la formació de les mateixes. 
@@ -222,7 +222,7 @@ Proves i exercicis a fer i entregar
     plt.title('5 periodes de la sinusoide 800Hz')   
     plt.show()
     ```
-    <img src="figure_4.png" width="480" align="center"> 
+    <img src="img/figure_4.png" width="480" align="center"> 
 
 
     ```python                                      
@@ -245,7 +245,7 @@ Proves i exercicis a fer i entregar
 
     - Insereix a continuació una gràfica que mostri 5 períodes del senyal i la seva transformada.
 
-    <img src="figure_5.png" width="480" align="center"> 
+    <img src="img/figure_5.png" width="480" align="center"> 
 
     - Explica el resultat del apartat anterior.
     Les gràfiques d'aquest apartat juntament amb l'anterior, ja que es tracten de la mateixa sinusoide de 800Hz, presenten la mateixa informació del senyal. A diferència de la saturació a la gràfica de representació del senyal, segurement deguda a qualque error de càlcul amb les variables llegides. 
@@ -272,7 +272,7 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show() 
     ```  
-    <img src="figure_6.png" width="480" align="center"> 
+    <img src="img/figure_6.png" width="480" align="center"> 
 
     - Comprova que la mesura de freqüència es correspon amb la freqüència de la sinusoide que has fet servir.
     Com es pot observar a la gràfica de la transformada de Fourier, hi ha un pic de 800Hz, és a dir, la freqüència fonamental, que és la freqüència de la sinusoide creada. 
@@ -322,7 +322,7 @@ Proves i exercicis a fer i entregar
     plt.title('Audio mono 25ms')   
     plt.show()  
     ```
-    <img src="figure_7.png" width="480" align="center"> 
+    <img src="img/figure_7.png" width="480" align="center"> 
 
     - Representa la seva transformada en dB en funció de la freqüència, en el marge $0\le f\le f_m/2$.
     ```python
@@ -345,7 +345,7 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show() 
     ```
-    <img src="figure_8.png" width="480" align="center"> 
+    <img src="img/figure_8.png" width="480" align="center"> 
 
     - Quines son les freqüències més importants del segment triat?
     En aquest cas, com es tracta d'un audio de reproducció de diferent d'un gran marge de freqüències, totes tenen una gran importància i presència.  

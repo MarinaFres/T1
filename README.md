@@ -130,7 +130,7 @@ Proves i exercicis a fer i entregar
 
     sd.play(x, fm)       
     ```
-    <img src="img/figure_0.png" width="480" align="center">
+    <img src="img/Figure_0.png" width="480" align="center">
 
     ```python           
     N=5000                     
@@ -149,7 +149,7 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')          
     plt.show()     
     ``` 
-    <img src="img/figure_1.png" width="480" align="center">  
+    <img src="img/Figure_1.png" width="480" align="center">  
 
 
     ```python
@@ -177,7 +177,7 @@ Proves i exercicis a fer i entregar
 
     sd.play(x, fm)              
     ```
-    <img src="img/figure_2.png" width="480" align="center">  
+    <img src="img/Figure_2.png" width="480" align="center">  
 
 
     ```python
@@ -197,12 +197,13 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show()
     ```                
-    <img src="img/figure_3.png" width="480" align="center"> 
+    <img src="img/Figure_3.png" width="480" align="center"> 
 
-     Com es por observar a la comparació de ambdues gráfiques, a una freqüència de 4kHz, la sinusoide es capaz de realitzar 5 periodes en en un temps de 1.1ms, mentre que a 800Hz triga aproximadament uns 6ms. 
-     Ambdues tenen una amplitud de 4 unitats com s'estableix previament al codi python en la formació de les mateixes. 
-     A les transformades de Fourier es pot observar un pic a 2500 al módul de la sinusoide de 4kHz i lòbuls secundaris simètricament dstribuits. 
-     A la sinusoide de 800Hz, hi ha dos lóbuls principals a 500Hz i 2500hz simètrics.
+       
+       Com es por observar a la comparació de ambdues gráfiques, a una freqüència de 4kHz, la sinusoide es capaz de realitzar 5 periodes en en un temps de 1.1ms, mentre que a 800Hz triga aproximadament uns 6ms. 
+       Ambdues tenen una amplitud de 4 unitats com s'estableix previament al codi python en la formació de les mateixes. 
+       A les transformades de Fourier es pot observar un pic a 2500 al módul de la sinusoide de 4kHz i lòbuls secundaris simètricament dstribuits. 
+       A la sinusoide de 800Hz, hi ha dos lóbuls principals a 500Hz i 2500hz simètrics.
 
 2. Modifica el programa per considerar com a senyal a analitzar el senyal del fitxer wav que has creat 
     (`x_r, fm = sf.read('nom_fitxer.wav')`).
@@ -222,7 +223,7 @@ Proves i exercicis a fer i entregar
     plt.title('5 periodes de la sinusoide 800Hz')   
     plt.show()
     ```
-    <img src="img/figure_4.png" width="480" align="center"> 
+    <img src="img/Figure_4.png" width="480" align="center"> 
 
 
     ```python                                      
@@ -245,10 +246,11 @@ Proves i exercicis a fer i entregar
 
     - Insereix a continuació una gràfica que mostri 5 períodes del senyal i la seva transformada.
 
-    <img src="img/figure_5.png" width="480" align="center"> 
+    <img src="img/Figure_5.png" width="480" align="center"> 
 
     - Explica el resultat del apartat anterior.
-    Les gràfiques d'aquest apartat juntament amb l'anterior, ja que es tracten de la mateixa sinusoide de 800Hz, presenten la mateixa informació del senyal. A diferència de la saturació a la gràfica de representació del senyal, segurement deguda a qualque error de càlcul amb les variables llegides. 
+      
+      Les gràfiques d'aquest apartat juntament amb l'anterior, ja que es tracten de la mateixa sinusoide de 800Hz, presenten la mateixa informació del senyal. A diferència de la saturació a la gràfica de representació del senyal, segurement deguda a qualque error de càlcul amb les variables llegides. 
 
 3. Modifica el programa per representar el mòdul de la Transformada de Fourier en dB i l'eix d'abscisses en el marge de
     $0$ a $f_m/2$ en Hz.
@@ -272,13 +274,15 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show() 
     ```  
-    <img src="img/figure_6.png" width="480" align="center"> 
+    <img src="img/Figure_6.png" width="480" align="center"> 
 
     - Comprova que la mesura de freqüència es correspon amb la freqüència de la sinusoide que has fet servir.
-    Com es pot observar a la gràfica de la transformada de Fourier, hi ha un pic de 800Hz, és a dir, la freqüència fonamental, que és la freqüència de la sinusoide creada. 
+      
+      Com es pot observar a la gràfica de la transformada de Fourier, hi ha un pic de 800Hz, és a dir, la freqüència fonamental, que és la freqüència de la sinusoide creada. 
 
     - Com pots identificar l'amplitud de la sinusoide a partir de la representació de la transformada? Comprova-ho amb el senyal generat.
-    No es pot identificar, ja que la representació es troba normalitzada, és a dir, està dividida entre el valor màxim de la transformada.
+     
+      No es pot identificar, ja que la representació es troba normalitzada, és a dir, està dividida entre el valor màxim de la transformada.
 
 > NOTES:
 >
@@ -322,7 +326,7 @@ Proves i exercicis a fer i entregar
     plt.title('Audio mono 25ms')   
     plt.show()  
     ```
-    <img src="img/figure_7.png" width="480" align="center"> 
+    <img src="img/Figure_7.png" width="480" align="center"> 
 
     - Representa la seva transformada en dB en funció de la freqüència, en el marge $0\le f\le f_m/2$.
     ```python
@@ -345,10 +349,11 @@ Proves i exercicis a fer i entregar
     plt.ylabel('$\phi_x[k]$')             
     plt.show() 
     ```
-    <img src="img/figure_8.png" width="480" align="center"> 
+    <img src="img/Figure_8.png" width="480" align="center"> 
 
     - Quines son les freqüències més importants del segment triat?
-    En aquest cas, com es tracta d'un audio de reproducció de diferent d'un gran marge de freqüències, totes tenen una gran importància i presència.  
+      
+      En aquest cas, com es tracta d'un audio de reproducció de diferent d'un gran marge de freqüències, totes tenen una gran importància i presència.  
 
 Entrega
 -------
